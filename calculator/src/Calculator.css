@@ -1,0 +1,35 @@
+.calculator{
+    width: 220px;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.calculator-display{
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator-buttons button{
+    padding: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    transition: background 0.2s;
+}
+
+.calculator-buttons button:hover{
+    background: #ccc;
+}
